@@ -7,7 +7,7 @@
 <body>
 
    <form method="POST" action="">
-        <label for="numero">Verifica se é um número primo:</label>
+        <label for="numero">Verifica se é um número par ou ímpar:</label>
         <input type="number" id="numero" name="numero" required>
         <button type="submit" name="verificar_numero">Verificar</button>
    </form>
