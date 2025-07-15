@@ -18,7 +18,7 @@
         if (isset($_POST['verificar_palavra'])) {
             $palindroma = $_POST['palavra'];
 
-            if ($palindroma == strrev($palindroma)) {
+            if ($palindroma == strrev($palindroma)) { //o strrev troca a posição das letras da palavra
             echo' Essa palavra é palindroma';
             } else {
             echo' Essa palavra não é Palindroma'; 
